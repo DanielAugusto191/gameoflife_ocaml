@@ -1,0 +1,18 @@
+# dune exec gameOfLife
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/pc2/.cache/dune/db
+# Workspace root: /home/pc2/workspace/ocamlSandbox/gameOfLife
+# Auto-detected concurrency: 4
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /usr/bin/ocamlc.opt -config > /tmp/dune_ac7a51_output
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I /home/pc2/.opam/default/lib/bigarray-compat -I /home/pc2/.opam/default/lib/ctypes -I /home/pc2/.opam/default/lib/ctypes/stubs -I /home/pc2/.opam/default/lib/integers -I /home/pc2/.opam/default/lib/raylib -I /home/pc2/.opam/default/lib/raylib/__private__/raylib_c -I /home/pc2/.opam/default/lib/raylib/__private__/raylib_fixed_types -I /home/pc2/.opam/default/lib/raylib/__private__/raylib_functions -I /home/pc2/.opam/default/lib/raylib/__private__/raylib_math -I /home/pc2/.opam/default/lib/raylib/__private__/raylib_rlgl -I /home/pc2/.opam/default/lib/raylib/__private__/raylib_types -I /home/pc2/.opam/default/lib/raylib/__private__/rlgl_generated_types -I /home/pc2/.opam/default/lib/raylib/__private__/rlgl_types -I /home/pc2/.opam/default/lib/stdlib-shims -I /usr/lib/ocaml/str -I lib/.gameOfLife.objs/byte -I lib/.gameOfLife.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe lib/gameOfLife.cmxa /home/pc2/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/pc2/.opam/default/lib/integers/integers.cmxa -I /home/pc2/.opam/default/lib/integers /home/pc2/.opam/default/lib/bigarray-compat/bigarray_compat.cmxa /home/pc2/.opam/default/lib/ctypes/ctypes.cmxa -I /home/pc2/.opam/default/lib/ctypes /usr/lib/ocaml/str/str.cmxa /home/pc2/.opam/default/lib/ctypes/stubs/ctypes_stubs.cmxa /home/pc2/.opam/default/lib/raylib/__private__/raylib_types/raylib_types.cmxa /home/pc2/.opam/default/lib/raylib/__private__/raylib_fixed_types/raylib_fixed_types.cmxa /home/pc2/.opam/default/lib/raylib/__private__/raylib_functions/raylib_functions.cmxa /home/pc2/.opam/default/lib/raylib/__private__/raylib_math/raylib_math.cmxa /home/pc2/.opam/default/lib/raylib/__private__/rlgl_types/rlgl_types.cmxa /home/pc2/.opam/default/lib/raylib/__private__/rlgl_generated_types/rlgl_generated_types.cmxa /home/pc2/.opam/default/lib/raylib/__private__/raylib_rlgl/raylib_rlgl.cmxa /home/pc2/.opam/default/lib/raylib/__private__/raylib_c/raylib_c.cmxa -I /home/pc2/.opam/default/lib/raylib/__private__/raylib_c /home/pc2/.opam/default/lib/raylib/raylib.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)
