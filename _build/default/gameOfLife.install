@@ -1,8 +1,0 @@
-lib: [
-  "_build/install/default/lib/gameOfLife/META"
-  "_build/install/default/lib/gameOfLife/dune-package"
-  "_build/install/default/lib/gameOfLife/opam"
-]
-bin: [
-  "_build/install/default/bin/gameOfLife"
-]
