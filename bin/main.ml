@@ -7,7 +7,7 @@ let () =
 
     set_target_fps 60;
 
-    let columns = 10 in
+    let columns = 11 in
     let rows = 10 in
 
     let column_size = screenWidth / columns in
